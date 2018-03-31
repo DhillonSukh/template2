@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Template</title>
+    <link rel="stylesheet" href="DemoTemplateTwoCss.css">
+</head>
+
+<body>
+    <div class="navigationBar">
+        <div class="row">
+            <div class="col-12 col-m-12">
+                <a href="">Home</a>
+                <a href="">Elements</a>
+                <a href="">Discussions</a>
+                <a href="" id="start">Get Start</a>
+                <a href="javascript:void(0)" onclick="dropdown()" id="mobile-icon">&#9776</a>
+            </div>
+        </div>
+    </div>
+    <div class="image-container">
+        <div class="row">
+            <div class="col-12 col-m-12">
+                <img src="DemoTemplateTwoAssest/bg.jpg" alt="download free template">
+            </div>
+        </div>
+        <div class="content">
+            <p>Template download: free template fully responsive edit as per your requirement</p>
+            <a href="" id="button-start">Get Start</a>
+        </div>
+    </div>
+    <div class="text-container">
+        <div class="row">
+
+            <div class="col-12 col-m-12">
+                <h2>Lorem ipsum</h2>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                <a href="" class="btn btn-design">Learn More</a>
+            </div>
+        </div>
+</div>
+    <div class="images-button">
+        <div class="row">
+            <div class="col-6 col-m-12">
+              <h2>Heading1</h2>
+               <img src="DemoTemplateTwoAssest/laptop-xps-13-9360-non-touch-front-usage-hero-504x350-ng-rg.jpg" class="img-fluid"> 
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+            </div>
+            <div class="col-6 col-m-12">
+              <h2>Heading2</h2>
+               <img src="DemoTemplateTwoAssest/laptop-xps-13-9360-non-touch-front-usage-hero-504x350-ng-rg.jpg" class="img-fluid"> 
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+            </div>
+        </div>
+    </div>
+    <div class="contact-text">
+        <div class="row">
+            <div class="col-12 col-m-12">
+            <p>&copy  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function dropdown() {
+            var nav = document.getElementsByClassName("navigationBar");
+            var content = document.getElementsByClassName("content");
+            if (nav[0].className === "navigationBar") {
+                nav[0].className += " responsive";
+                content[0].className += " responsive";
+            } else
+                nav[0].className = "navigationBar";
+            content[0].className = "content";
+        }
+
+    </script>
+
+
+
+
+
+
+
+</body>
+
+</html>
